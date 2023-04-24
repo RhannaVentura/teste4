@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>CALCULADORA</title>
+<style type="text/css">
+
+.button
+{
+	background-color:#DEE1F6
+	border-radius 120px;
+	text-align: center;
+	text-decoration: center;
+	padding: 15px 32px;
+	display: inline-block;
+
+}
+
+.border
+{
+	border-collapse: collapse;
+	border: solid black; 
+    border-radius: 20px;
+    height:300px;
+    width:300px;
+	margin: auto; 
+	padding: 30px;
+	text-align: center;
+	
+}
+.div
+{
+display: inline-block;
+width: 30px;
+flex-direction: row;
+margin-left: auto;
+margin-right: auto;
+  height:100px;
+    width:300px;
+}
+
+.calculador
+{ 
+  display: grid;}
+
+</style>
+</head>
+<body class="border">
+<div class="calculador">ooooooooooo</div>
+<div class="div">
+<button onclick="insert(1)">1</button>
+<button onclick="insert(2)">2</button>
+<button onclick="insert(3)">3</button>
+<button onclick="insert(/)">÷</button>
+</div>
+<div class="div">
+<button onclick="insert(4)">4</button>
+<button onclick="insert(5)">5</button>
+<button onclick="insert(6)">6</button>
+<button onclick="insert(*)">x</button>
+</div>
+<div class="div">
+<button onclick="insert(7)">7</button>
+<button onclick="insert(8)">8</button>
+<button onclick="insert(9)">9</button>
+<button onclick="insert(-)">-</button>
+</div>
+<div class="div">
+<button onclick="insert(0)">0</button>
+<button onclick="insert(,)">,</button>
+<button onclick="insert(+)">+</button>
+<button onclick="insert(resultado)">=</button>
+</div>
+
+
+
+
+</body>
+</html>

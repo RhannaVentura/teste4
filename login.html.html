@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Login</title>
+<style type="">
+	
+.border
+{
+	border-collapse: collapse;
+	border: solid black; 
+    border-radius: 20px;
+    height:300px;
+    width:300px;
+	margin: auto; 
+	padding: 50px;
+	background-color:#A1BCE4;
+	
+	
+
+ }
+
+.div
+{
+	text-align: center;
+	border-radius: 150px;
+	bottom: -80px; 
+	position: relative;
+	min-height: 200px;	
+}
+
+.bottom
+{ 
+	background-color:#DEE1F6
+	border-radius 120px;
+	text-align: center;
+	text-decoration: center;
+	padding: 15px 32px;
+	display: inline-block;
+
+}
+
+.img
+{
+	background-image:url(imagem/azulrh2.jpg) ;
+	width: 1300px;
+	height: 1300px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+body
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+</style>
+
+
+<script type="text/javascript">
+	
+
+function funcaoteste()
+{
+
+	var a = document.getElementById('testeteste').value;
+	var b = document.getElementById('testeteste2').value;
+
+if ( a=='rhana' & b==123)
+{
+	alert("SUCESSO!");
+}
+else
+{
+	alert('FALHA!!!');
+}
+return false;
+
+}
+
+</script>
+
+</head>
+<body img class="img">
+	<div class="div">
+	<div class="border">
+		
+
+<h1> LOGIN
+</h1>
+<h3> USUÁRIO:
+</h3>
+<form>
+            <input type="text" id="testeteste" placeholder="usuário">
+	<label>
+		<span>
+		</span>
+	</label>
+</form>
+<h3> SENHA:</h3>
+<form>
+	<input type="password" id="testeteste2" placeholder="senha">
+</form>
+<br>
+<button onclick="funcaoteste()"> ENTRAR </button>
+</div>
+</body>
+</html>
+
+
